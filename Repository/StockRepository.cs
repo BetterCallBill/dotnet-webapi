@@ -9,6 +9,7 @@ namespace api.Repository
     public class StockRepository : IStockRepository
     {
         private readonly ApplicationDBContext _context;
+        
         public StockRepository(ApplicationDBContext context)
         {
             _context = context;
